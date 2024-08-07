@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
+
+.button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-style: italic;
+}
