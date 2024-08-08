@@ -17,3 +17,23 @@ body{
     color: brown;
     font-style: italic;
 }
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:4px 8px;
+}
+button{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:4px 8px;
+    width: 10vw;
+    border:none;
+    background-color: brown;
+    color: white;
+}
