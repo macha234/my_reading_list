@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Book from "./components/Book"
 import "./index.css"
-
+import {Link} from 'react-router-dom'
 
 function App() {
 const [nameOfBook,setNameOfBook] = useState("")
@@ -20,7 +20,8 @@ function onSubmit(event){
     endDate: endDate,
   }
   // make a copy of the array(books)
-  const NewData =[...books]
+  const NewData = [...books]
+
 
   // push data to the array(newData)
   NewData.push(data)
@@ -51,12 +52,19 @@ function onSubmit(event){
       startingDate: "10/7/24",
       endDate: "13/7/24"
      },
-   
-
   ])
+
   
   return (
     <>
+  <div>
+   <Link to="/">Home</Link>
+   <br />
+   <Link to="/contact">Contact</Link>
+   <br/>
+   <Link to="/about">About</Link>
+  </div>
+
     <h1 className="title">MY READING LIST</h1>
  
  <div className="wrapper">
